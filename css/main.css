@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 1% 0% 0% 1%;
+    color: white;
+    width: 80px;
+    height: 27px;
+    background: #2E86C1;
+    border-radius: 7%;
+    text-align: center;
+}
+
+
+
+nav {
+    background: #4455f0;
+    height: 40px;
+    padding-top: 6px;
+    color: white;
+}
+
+form {
+    display: inline-block;
+}
+
+
+.tablero {
+    display: inline-block;
+    background: #2E86C1;
+    width: 82px;
+    height: 23px;
+    margin-left: 11px;
+}
+
+ul{
+    
+    width: 233px;
+    float: right;
+}
+
+.score {
+    width: 50px;
+    height: 20px;
+}
+
+.nav-two {
+    background: #2E86C1;
+    color: white;
+}
+
+/*Añadiendo estilo a la seccion dinamica*/
+
+.section {
+    background: #5499C7;
+    height: 800px;
+    position: relative;
+}
+.buton {
+    color: #c1c1c1;
+    border: none;
+    width: 145px;
+    height: 26px;
+    border-radius: 4%;
+    background: #EBDEF0;
+    margin: 12px 0 0 11px;
+    
+}
+
+.in {
+    width: 208px;
+    border: 1px solid #AAB7B8;
+  
+    color: black;    
+   
+    
+}
+
+.caja {
+   
+    width: 229px;
+    height: 82px;
+    background: #ccc;
+    visibility: hidden;
+    z-index: 1;
+    margin-top: -32px;
+   
+}
+
+.newcaja{
+    visibility: hidden;
+    height: 200px;
+    position: absolute;
+    top: 33px;
+    left: 14px;
+    
+}
+.newcaja textarea {
+    background: white;
+  
+    border-radius: 0%;    
+    overflow:hidden;
+    margin:1px auto;
+    display:block;
+    height: 60px;
+}   
+
+.btn-two {
+    background: #27AE60;
+    color: white;
+    width: 92px;
+    height: 28px;
+    margin: 9px;
+    border: none;
+
+}
+
+.first-section {
+    width: 229px;
+    position: relative;
+}
+
+.second-section {
+    background: #ccc;
+    position: absolute;
+    left:250px ;
+    width: 229px;
+    top: 0px;
+    visibility: hidden;
+
+}
+.estyleP {
+    font-weight: 700;
+    margin-left: 14px;
+    width: 20px;
+    display: block;
+}
+
+.estyleT {
+    font-weight: 700;
+    background: rgb(172, 172, 180);
+    height: 25px;
+    margin-bottom: -11px;
+    border: 1px solid rgb(153, 160, 160);
+    padding-left: 13px;
+    margin: 1px 0px;
+}
+.tarjeta {
+    background: #ccc;
+    width: 229px;
+    height: 50px;
+    visibility: hidden;
+    position: absolute;
+    top: 12px;
+    left: 14px;
+}
+.tarjeta button{
+    color: black;
+    background: rgb(172, 172, 172);
+    display: block;
+    width: 229px;
+    height: 32px;
+    padding: 9px; 
+    border: none;
+    text-decoration: underline;  
+}
