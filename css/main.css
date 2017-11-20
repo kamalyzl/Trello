@@ -15,21 +15,15 @@ li {
     border-radius: 7%;
     text-align: center;
 }
-
-
-
 nav {
     background: #4455f0;
     height: 40px;
     padding-top: 6px;
     color: white;
 }
-
 form {
     display: inline-block;
 }
-
-
 .tablero {
     display: inline-block;
     background: #2E86C1;
@@ -74,11 +68,8 @@ ul{
 
 .in {
     width: 208px;
-    border: 1px solid #AAB7B8;
-  
-    color: black;    
-   
-    
+    border: 1px solid #AAB7B8;  
+    color: black;        
 }
 
 .caja {
@@ -88,8 +79,7 @@ ul{
     background: #ccc;
     visibility: hidden;
     z-index: 1;
-    margin-top: -32px;
-   
+    margin-top: -32px;   
 }
 
 .newcaja{
@@ -97,8 +87,7 @@ ul{
     height: 200px;
     position: absolute;
     top: 33px;
-    left: 14px;
-    
+    left: 14px;    
 }
 .newcaja textarea {
     background: white;
@@ -117,7 +106,6 @@ ul{
     height: 28px;
     margin: 9px;
     border: none;
-
 }
 
 .first-section {
@@ -132,7 +120,6 @@ ul{
     width: 229px;
     top: 0px;
     visibility: hidden;
-
 }
 .estyleP {
     font-weight: 700;

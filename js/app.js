@@ -1,4 +1,4 @@
-window.addEventListener('load', function () {
+window.addEventListener('load', function() {
   var buton = document.getElementById('btn');
   var newbuton = document.getElementById('caja-js');
   var butonTwo = document.getElementById('btn-two');
@@ -7,12 +7,12 @@ window.addEventListener('load', function () {
   var butonFour = document.getElementById('btn-four');
 
 
-  buton.addEventListener('click', function () {
+  buton.addEventListener('click', function() {
     buton.style.visibility = 'hidden';
     newbuton.style.visibility = 'visible';
-  })
+  });
 
-  butonTwo.addEventListener('click', function (e) {
+  butonTwo.addEventListener('click', function(e) {
     var dadOne = document.getElementById('tarjeta-js');
     var dad = document.getElementById('caja-js2');
     var parr = document.createElement('p');
@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
       secondArti.style.visibility = 'visible';
     }
 
-    ancor.addEventListener('click', function () {
+    ancor.addEventListener('click', function() {
       document.getElementById('tarjeta-js').style.visibility = 'hidden';
       document.getElementById('caja-js2').style.visibility = 'visible';
       var newTitle = document.createElement('p');
@@ -38,10 +38,9 @@ window.addEventListener('load', function () {
       newTitle.textContent = document.getElementById('inputText').value;
       newTitle.classList.add('estyleP');
       dad.insertBefore(newTitle, child);
+    });
 
-    })
-
-    butonFour.addEventListener('click', function (event) {
+    butonFour.addEventListener('click', function(event) {
       var tajetText = document.createElement('p');
       var dad = document.getElementById('caja-js2');
       var child = document.getElementById('textarea-id');
@@ -53,36 +52,6 @@ window.addEventListener('load', function () {
         dad.insertBefore(tajetText, child);
         child.value = '';
       }
-
-
-    })
-
-   /* var textarea = document.querySelector('textarea');
-    textarea.addEventListener('keydown', function () {
-      var el = this;
-      setTimeout(function () {
-        el.style.cssText = 'height:auto; padding:0';
-        el.style.cssText = 'height:' +  '60px';
-      }, 0);
-    })
-*/
-
-
-
-
-  })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-})
+    });
+  });
+});
